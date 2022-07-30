@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    gap: 2rem;
+    gap: 1rem;
 
 }
 .awesome>:nth-child(1){
@@ -23,4 +23,30 @@
     font-size: 2.5rem;
     font-weight: bold;
 
+}
+.awesome>:nth-child(3){
+    color: var(--gray);
+    font-size: 14px;
+}
+.s-button{
+    width: 8rem;
+    height: 2rem;
+}
+
+.cards{
+    position: relative;
+}
+.cards>*{
+    position: absolute;
+}
+
+/* blur */
+
+.s-blur2{
+    left: 14rem;
+    top: 8rem;
+}
+.s-blur1{
+    left: -18rem;
+    top: 13rem;
 }

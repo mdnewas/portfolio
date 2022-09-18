@@ -34,3 +34,9 @@
     font-size: 16px;
     color: skyblue;
 }
+
+@media screen and (max-Width: 480px){
+    .card{
+        width: auto;
+    }
+}

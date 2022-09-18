@@ -1,7 +1,7 @@
 .services{
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 90vh;
+    height: 75vh;
     margin-top: 2rem;
     margin-bottom: 13rem;
 }
@@ -49,4 +49,24 @@
 .s-blur1{
     left: -18rem;
     top: 13rem;
+}
+
+@media screen and (max-Width: 480px){
+
+    .services{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 66rem;
+        padding: 0;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+
+    }
+    .cards>*{
+        position: static;
+    }
 }
